@@ -1,0 +1,24 @@
+.fadeInLeft{
+    transition: .3s;
+    animation-name: fadeInLeft;
+    animation-duration: 1s;
+    animation-delay: 1s;  
+
+}
+@keyframes fadeInLeft {
+    0%{left:0%}
+    100%{right:100%}  
+}
+.fadeInRight{
+    transition: .3s;
+
+    animation-name: fadeInRight;
+    animation-duration: 1s;
+    animation-duration: reverse;
+    animation-timing-function: linear;
+    animation-delay: 1s;  
+}
+@keyframes fadeInRight {
+    0%{right:0%}
+    100%{left:100%}  
+}

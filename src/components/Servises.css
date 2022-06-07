@@ -1,0 +1,50 @@
+/* .Lorem1{
+    color:red ;
+    background-image: url('../img/post-1.jpg');
+    width: 200px;
+    background-repeat: no-repeat;
+} */
+.yashirin1{
+    transition: 0.5s;
+    color: white;
+    /* border:1px solid red; */
+    opacity: 0;
+    /* margin-top: 50px; */
+    /* position: relative;
+    padding-top: 30%;
+    padding-bottom: 49%; */
+    /* background: rgba(0,0,0,0.3); */
+    /* margin-top: 30px; */
+    /* position: absolute; */
+    /* padding: 4.1%;
+    padding-top: 7%;
+    padding-bottom: 10%; */
+
+}
+.img1:hover{
+    background: rgba(0,0,0,0.3);
+}
+/* .yashirin1:hover{
+    transition: 0.5s;
+    opacity: 1;
+} */
+
+.gridone:hover .yashirin1{
+    opacity: 1;
+}
+.grid1:hover{
+    background: rgba(0,0,0,0.3);
+}
+.span1{
+    /* border: 1px solid red; */
+    padding: 4.5%;
+    padding-left: 6%;
+    /* font-size: 20px; */
+    padding-right: 6%;
+    /* text-align: right; */
+    /* margin-left: 3px; */
+    background: #FDBE33;
+}
+.span1:hover{
+    color: white;
+}
